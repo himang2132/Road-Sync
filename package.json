@@ -1,0 +1,20 @@
+{
+  "name": "roadsync-smart-road-coordination",
+  "version": "1.0.0",
+  "private": true,
+  "description": "RoadSync - Smart Road-Cutting Coordination System (college PBL MVP)",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node backend/server.js",
+    "seed": "node database/seed.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1"
+  }
+}
